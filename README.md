@@ -8,10 +8,14 @@ aws_access_key_id = dr...go
 aws_secret_access_key = iv...ov
 p.s. To SSH into instances add your 'ssh-key.pem' file inside /modules/alb-web/variables.tf file
 
-Step 2: 
-terraform init
-terrafrom plan
-terraform apply --auto-approve
+Step 2: Run the following commands:
+
+'terraform init'
+
+'terrafrom plan'
+
+'terraform apply --auto-approve'
+
 
 ... wait for 3 or 4 minutes (because the database will took some time, grab a coffee or beer) ... vuala! All the services are up and running!   
 
