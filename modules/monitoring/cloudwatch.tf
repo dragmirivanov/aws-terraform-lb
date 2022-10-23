@@ -65,9 +65,3 @@ resource "aws_cloudwatch_metric_alarm" "EC2_CPU_Usage_Alarm" {
 }
 
 
-# Create an CloudWatch Log Group
-resource "aws_cloudwatch_log_group" "EC2_logGroup" {
-  name = "ENDAVA_EC2_logGroup"
-  retention_in_days = 30
-}
-
